@@ -1,5 +1,6 @@
 const fizzBuzz = () => {
     console.log('text');
+    /* add alternative solution (ternary operator)
     for (let i = 1; i <= 100; i++) {
         if (i % 3 === 0 && i % 5 === 0) {
             console.log('fizzBuzz');
@@ -8,6 +9,6 @@ const fizzBuzz = () => {
         } else if (i % 3 === 0) {
             console.log('fizz');
         } else console.log(i);
-    }
+    } */
 }
-fizzBuzz();
+fizzBuzz(); 
