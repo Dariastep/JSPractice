@@ -6,3 +6,5 @@
  * @param {?} value - value to fill
  * @returns {Array}
  */
+const fillArray = (num, value) =>  new Array(num).fill(value);   
+console.log(fillArray(3, 'a'));
